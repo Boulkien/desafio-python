@@ -221,4 +221,4 @@ for person in dict_of_spent_money_by_people:
     output_list.append(dict_of_spent_money_by_people[person])
 
 jsonified = json.dumps(output_list, indent=4) # [ ! ] Versão JSON respeitando o modelo imposto no enunciado da questão.
-print(pd.DataFrame(output_list))
+print(jsonified)
